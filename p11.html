@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <center>
+            <h1>HTML FORM TAG..!</h1>
+        </center>
+
+        <hr>
+
+<h3>default form</h3>
+ <form action="p4.html" method="post">
+    <button type="submit"> SUBMIT</button>
+    <button type="reset">RESET</button>
+    <button type="button">CANCEL</button>
+ </form>
+
+ <hr>
+
+ <h2>testcase form..!</h2>
+ <form>
+    <fieldset>
+        <legend>first name</legend>
+        <label for="">enter first name</label>
+        <input type="text" name="first name" id="firstname" placeholder="firstname" value="firstname" recquired>
+    </fieldset>
+
+    <fieldset>
+        <legend>middle name</legend>
+        <label for="">enter middle name</label>
+        <input type="text" name="middle name" id="middlename" placeholder="middle name" value="" required>
+
+    </fieldset>
+
+    <feildset>
+        <legend>last name</legend>
+        <label for="">enter last name</label>
+        <input type="text" name="last name" id="lastname" placeholder="last name" value="" required>
+
+    </feildset>
+
+    <feildset>
+        <legend>button</legend>
+        <label for="">Input Type is Button</label>
+        <input type="button" value="BUTTON"
+    </feildset>
+
+    <fieldset>
+        <legend>Checkbox</legend>
+        <p>Input Type is checkbox, is used for select more than one option.</p>
+    
+    <h3>Languages</h3>
+    <label for="">Kannada</label>
+    <input type="checkbox" value="Kannada" name="Kannada" id="Kannada">
+
+    <label for="">english</label>
+    <input type="checkbox" value="english" name="english" id="english">
+
+    <label for="">hindi</label>
+    <input type="checkbox" value="hindi" name="hindi" id="hindi">
+</fieldset>
+
+<fieldset>
+    <legend>color</legend>
+    <label for="">Input type is color</label>
+    <input type="color" name="color" id="color">
+</fieldset>
+
+<fieldset>
+    <legend>data</legend>
+    <label for="">Input type is date</label>
+    <input type="date" name="date" id="date">
+</fieldset>
+
+<fieldset>
+    <legend>dataTime</legend>
+    <label for="">Input type is dateTime</label>
+    <input type="datetime" placeholder="Date and Time">
+</fieldset>
+
+<fieldset>
+    <legend>dataTimeLocal</legend>
+    <label for="">Input type is dateTimeLocal</label>
+    <input type="datetime-Local" name="datetimeLocal" id="dateTimeLocal">
+</fieldset>
+
+<fieldset>
+    <legend>Email</legend>
+    <label for="">Input type is Email</label>
+    <input type="Email" placeholder="Email" name="email" id="email">
+</fieldset>
+
+<fieldset>
+    <legend>file</legend>
+    <label for="">Input type is file</label>
+    <input type="file" name="file" id="file">
+</fieldset>
+
+<fieldset>
+    <legend>hidden</legend>
+    <label for="">Input type is hidden</label>
+    <input type="hidden" name="hidden" id="hidden">
+</fieldset>
+
+<fieldset>
+    <legend>Image</legend>
+    <label for="">Input type is Image</label>
+    <input type="Image" src="assets/images/img 3.jpg" height="240" width="400"
+</fieldset>
+
+<fieldset>
+    <legend>Month</legend>
+    <label for="">Input type is Month</label>
+    <input type="Month" name="Month" id="Month">
+</fieldset>
+
+<fieldset>
+    <legend>Number</legend>
+    <label for="">Input type is Number</label>
+    <input type="Number" placeholder="Number" name="Number" id="Number">
+</fieldset>
+
+<fieldset>
+    <legend>password</legend>
+    <label for="">Input type is password</label>
+    <input type="password" placeholder="password" name="password" id="password">
+</fieldset>
+
+<fieldset>
+    <legend>Radio</legend>
+    <p>Input type is radio, is used for to check true or false.</p>
+    <h3>Gender</h3>
+    <label for="">Male</label>
+    <input type="radio" value="Male" id="male" name="gender"
+    <label for="">FeMale</label>
+    <input type="radio" value="female" id="female" name="gender"
+</fieldset>
+
+<fieldset>
+    <legend>range</legend>
+    <label for="">Input type is range</label>
+    <input type="range" min="1" max="100" value="10">
+</fieldset>
+
+<fieldset>
+    <legend>Reset</legend>
+    <label for="">Input type is reset</label>
+    <input type="rest" value="RESET">
+</fieldset>
+
+<fieldset>
+    <legend>search</legend>
+    <label for="">Input type is search</label>
+    <input type="search" placeholder="search here" name="search" id="search">
+</fieldset>
+
+<fieldset>
+    <legend>Submit</legend>
+    <label for="">Input type is Submit</label>
+    <input type="submit" value="SUBMIT">
+</fieldset>
+
+<fieldset>
+    <legend>Tel</legend>
+    <label for="">Input type is Tel</label>
+    <input type="tel" placeholder="Telephone" name="telephone" id="telephone">
+</fieldset>
+
+<fieldset>
+    <legend>Time</legend>
+    <label for="">Input type is Time</label>
+    <input type="time"  name="time" id="time">
+</fieldset>
+
+<fieldset>
+    <legend>URL</legend>
+    <label for="">Input type is URL</label>
+    <input type="URL" placeholder="URL" name="URL" id="URL">
+</fieldset>
+
+<fieldset>
+    <legend>week</legend>
+    <label for="">Input type is week</label>
+    <input type="week"  name="week" id="week">
+</fieldset>
+
+<fieldset>
+    <legend>Address</legend>
+    <p>TextArea is used for to write local, permanent address and feedback pupose also using. </p>
+    <label for="">address</label>
+    <textarea name="address" id="address" cols="20" rows="10" placeholder="address"></textarea>
+</fieldset>
+
+<fieldset>
+    <legend>SELECT OPTION</legend>
+    <p>This id a dropdown and is used for select only one option </p>
+
+    <label for="">Select Qualification</label>
+
+    <select name="Qualification" id="Qualification">
+        <option value="" disabled>----select your qualification----</option>
+        <option value="">SSLC</option>
+        <option value="">PUC</option>
+        <option value="">DIPLOMA</option>
+        <option value="">DEGREE</option>
+        <option value="">MASTER DEGREE</option>
+        <option value="">M PHIL</option>
+        <option value="">PHD</option>
+
+        <optgroup>
+            <option value="">Bsc in PMCS</option>
+            <option value="">Bsc in pcm</option>
+            <option value="">Bsc in Pcmc</option>
+            <option value="">Bsc in cbz</option>
+            <option value="">Bsc in csmst</option>
+            <option value="">Bsc in emst</option>
+
+        </optgroup>
+    </select>
+</fieldset>
+    
+ </form>
+
+
+    </body>
+</html>
